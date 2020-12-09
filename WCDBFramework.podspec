@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WCDBFramework"
-  s.version      = "1.0.8"
+  s.version      = "1.0.8.2"
   s.summary      = "WCDB"
   s.description  = <<-DESC
   WCDB
@@ -15,8 +15,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.vendored_frameworks = 'frameworks/WCDB.framework'
-  s.dependency 'SQLiteRepairKit', '1.1.1'
-  s.dependency 'WCDBOptimizedSQLCipher', '1.1.1'
 
   s.xcconfig = { "OTHER_LINK_FLAG" => '$(inherited) -ObjC' }
 
