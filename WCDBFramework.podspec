@@ -18,5 +18,4 @@ Pod::Spec.new do |s|
 
   s.xcconfig = { "OTHER_LINK_FLAG" => '$(inherited) -ObjC' }
 
-
 end
